@@ -6,16 +6,16 @@ export default function LandingPage() {
       {/* Navbar */}
       <nav className="flex flex-wrap items-center p-4 shadow-md bg-gray-900 text-white">
         <img src="logo-transparent.png" className="w-10"></img>
-  <h1 className="text-2xl font-bold">PrepBot-AI</h1>
+        <h1 className="text-2xl font-bold">PrepBot-AI</h1>
 
-  <div className="flex ml-auto flex-wrap gap-2 sm:text-xs mt-4 sm:mt-0">
-    <a href="#features" className="text-gray-300 hover:text-blue-400 font-semibold text-lg">Features</a>
-    <a href="#how-it-works" className="text-gray-300 hover:text-blue-400 font-semibold text-lg">How It Works</a>
-    <a href="#contact" className="text-gray-300 hover:text-blue-400 font-semibold text-lg">Contact</a>
-    <a href="/login" className="bg-cyan-600 text-white px-3 py-1.5 rounded hover:bg-blue-700 font-semibold text-xl">Login</a>
-    <a href="/signup" className="bg-cyan-600 text-white px-3 py-1.5 rounded hover:bg-blue-700 font-semibold text-xl">Sign up</a>
-  </div>
-</nav>
+       <div className="flex ml-auto flex-wrap gap-2 sm:text-xs mt-4 sm:mt-0">
+         <a href="#features" className="text-gray-300 hover:text-blue-400 font-semibold text-lg">Features</a>
+         <a href="#how-it-works" className="text-gray-300 hover:text-blue-400 font-semibold text-lg">How It Works</a>
+         <a href="#contact" className="text-gray-300 hover:text-blue-400 font-semibold text-lg">Contact</a>
+         <a href="/login" className="bg-cyan-600 text-white px-3 py-1.5 rounded hover:bg-blue-700 font-semibold text-xl">Login</a>
+         <a href="/signup" className="bg-cyan-600 text-white px-3 py-1.5 rounded hover:bg-blue-700 font-semibold text-xl">Sign up</a>
+       </div>
+     </nav>
 
 
       {/* Hero Section */}
